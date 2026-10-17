@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit
  */
 object NetworkModule {
 
-    private const val PREFS_NAME = "haloguard_prefs"
+    private const val PREFS_NAME = "SafeHome_prefs"
     private const val KEY_BASE_URL = "base_url"
     private const val KEY_AUTH_TOKEN = "auth_token"
     private const val KEY_USER_ID = "user_id"

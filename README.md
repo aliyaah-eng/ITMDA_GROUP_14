@@ -1,4 +1,4 @@
-# HaloGuard: IoT Usability vs. Security Research Platform
+# SafeHome: IoT Usability vs. Security Research Platform
 
 > **Research Topic:** Evaluating the Usability vs. Security Trade-Off in Consumer IoT  
 > **Course / Module:** ITMDA (Information Technology / Multimedia / Data Analytics) — Group 14  
@@ -10,7 +10,7 @@
 
 Consumer smart home (IoT) devices often prioritize out-of-the-box convenience over security. Most devices ship with factory defaults that maximize convenience (simple PINs, unencrypted communication, and open ports) at the cost of high security risks. Hardening these devices often introduces user friction.
 
-**HaloGuard** is a research platform designed to measure how everyday users navigate these trade-offs. The mobile app presents a live security auditor that recalculates a **Security Score** and **Convenience Index** in real time as participants choose how to configure their gateway across three core areas:
+**SafeHome** is a research platform designed to measure how everyday users navigate these trade-offs. The mobile app presents a live security auditor that recalculates a **Security Score** and **Convenience Index** in real time as participants choose how to configure their gateway across three core areas:
 1. **Access & Identity:** Device authentication credentials and action authorization thresholds.
 2. **Network & Connectivity:** Transport protocol encryption, Wi-Fi VLAN isolation, and remote firewall exposure.
 3. **System & Privacy:** Firmware patch policies and cloud telemetry sharing.

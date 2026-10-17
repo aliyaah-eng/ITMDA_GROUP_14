@@ -1,5 +1,5 @@
 """
-HaloGuard: IoT Gateway Usability vs Security Research REST API.
+SafeHome: IoT Gateway Usability vs Security Research REST API.
 Handles participant authentication, live trade-off calculations,
 session telemetry logging, and on-demand Excel report generation.
 """
@@ -214,7 +214,7 @@ def run_vulnerability_assessment(settings: dict):
 def index():
     """Service health check and API descriptor."""
     return jsonify({
-        "service": "HaloGuard IoT Commissioning & Security Auditor API",
+        "service": "SafeHome IoT Commissioning & Security Auditor API",
         "version": "2.0.0",
         "status": "online",
         "documentation": "Evaluating the Usability vs. Security Tradeoff in Consumer IoT"

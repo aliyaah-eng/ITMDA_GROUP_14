@@ -5,7 +5,7 @@ import retrofit2.Response
 import retrofit2.http.*
 
 /**
- * Retrofit REST API interface for the HaloGuard backend.
+ * Retrofit REST API interface for the SafeHome backend.
  * Defines network endpoints for authentication, real-time auditing,
  * commissioning deployment, and interaction telemetry.
  */

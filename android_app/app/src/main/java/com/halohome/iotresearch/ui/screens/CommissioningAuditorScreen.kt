@@ -140,7 +140,7 @@ fun CommissioningAuditorScreen(
             TopAppBar(
                 title = {
                     Column {
-                        Text("HaloGuard Gateway Setup", fontWeight = FontWeight.Bold, fontSize = 16.sp)
+                        Text("SafeHome Gateway Setup", fontWeight = FontWeight.Bold, fontSize = 16.sp)
                         Text("Participant ${NetworkModule.participantId} • Live Auditor", fontSize = 11.sp, color = BlueAccent)
                     }
                 },

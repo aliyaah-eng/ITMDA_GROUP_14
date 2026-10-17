@@ -47,7 +47,7 @@ fun LoginScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("HaloGuard IoT Setup", fontWeight = FontWeight.Bold, fontSize = 18.sp) },
+                title = { Text("SafeHome IoT Setup", fontWeight = FontWeight.Bold, fontSize = 18.sp) },
                 colors = TopAppBarDefaults.topAppBarColors(containerColor = SlateBackground),
                 actions = {
                     IconButton(onClick = { showServerDialog = true }) {
@@ -78,7 +78,7 @@ fun LoginScreen(
             }
 
             Spacer(modifier = Modifier.height(14.dp))
-            Text("HaloGuard", fontSize = 24.sp, fontWeight = FontWeight.Bold, color = TextPrimary)
+            Text("SafeHome", fontSize = 24.sp, fontWeight = FontWeight.Bold, color = TextPrimary)
             Text("IoT Commissioning & Security Auditor", fontSize = 13.sp, color = TextSecondary)
             Spacer(modifier = Modifier.height(24.dp))
 

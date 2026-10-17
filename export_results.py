@@ -181,7 +181,7 @@ def generate_excel_workbook(db_path=DB_PATH):
     ws_exec.row_dimensions[2].height = 36
 
     ws_exec.merge_cells("B3:D3")
-    ws_exec["B3"] = "Commissioning Auditor Dataset | HaloGuard Framework"
+    ws_exec["B3"] = "Commissioning Auditor Dataset | SafeHome Framework"
     ws_exec["B3"].font = Font(name="Segoe UI", size=10, bold=True, color=WHITE)
     ws_exec["B3"].fill = PatternFill(start_color=ROYAL_BLUE, end_color=ROYAL_BLUE, fill_type="solid")
     ws_exec["B3"].alignment = Alignment(horizontal="center", vertical="center")
